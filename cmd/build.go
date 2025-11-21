@@ -20,6 +20,7 @@ func init() {
 }
 
 var buildCMD = &cobra.Command{
+
 	Use:   "build apk",
 	Short: "build flutter apk and rename it",
 	RunE: func(cmd *cobra.Command, args []string) error {
